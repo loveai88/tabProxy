@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "TabProxy",
+  "version": "0.1",
+  "description": "proxy all in the tab",
+  "browser_action": {
+    "default_icon": "img/icon_032.png" ,
+    "default_title": "TabProxy",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+      "proxy",
+      "tabs",
+      "contextMenus"
+    ],
+    "icons": {
+        "16": "img/icon_032.png",
+        "48": "img/icon_048.png",
+        "128": "img/icon_128.png"
+      }
+}
